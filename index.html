@@ -264,15 +264,31 @@ function flash(btn, label, done) {
   }, 1800);
 }
 
+function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function toPlain(s) { return s.replace(/\*\*(.+?)\*\*/g, '$1'); }
+function toHtml(s, forMail) {
+  var h = esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  if (forMail) h = h.replace(/^ +/gm, function (sp) { return sp.replace(/ /g, '&nbsp;'); }).replace(/\n/g, '<br>');
+  return h;
+}
+
 function copyMail(text, btn, node) {
+  var plain = toPlain(text);
+  var html = '<div>' + toHtml(text, true) + '</div>';
   var fallback = function () {
     selectNode(node);
     var ok = false;
     try { ok = document.execCommand('copy'); } catch (e) {}
     flash(btn, ok ? 'Copié' : 'Ctrl+C', ok);
   };
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(text).then(function () { flash(btn, 'Copié', true); }, fallback);
+  if (navigator.clipboard && navigator.clipboard.write && window.ClipboardItem) {
+    var item = new ClipboardItem({
+      'text/html': new Blob([html], { type: 'text/html' }),
+      'text/plain': new Blob([plain], { type: 'text/plain' })
+    });
+    navigator.clipboard.write([item]).then(function () { flash(btn, 'Copié', true); }, fallback);
+  } else if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(plain).then(function () { flash(btn, 'Copié', true); }, fallback);
   } else {
     fallback();
   }
@@ -283,7 +299,7 @@ function render() {
   var list = MAILS.filter(function (m) {
     if (state.cat !== 'all' && m.cat !== state.cat) return false;
     if (!q) return true;
-    return norm(m.title + ' ' + m[state.lang]).indexOf(q) !== -1;
+    return norm(m.title + ' ' + toPlain(m[state.lang])).indexOf(q) !== -1;
   });
   grid.textContent = '';
   list.forEach(function (m) {
@@ -309,7 +325,7 @@ function render() {
 
     var body = document.createElement('div');
     body.className = 'mail';
-    body.textContent = m[state.lang];
+    body.innerHTML = toHtml(m[state.lang], false);
 
     var copy = document.createElement('button');
     copy.type = 'button';

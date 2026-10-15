@@ -1,0 +1,107 @@
+[
+  {
+    "id": "01",
+    "cat": "resa",
+    "title": "Réservation web (disponibilités et tarifs)",
+    "fr": "Bonjour,\n\nNous vous remercions de l'intérêt que vous portez à notre camping, nous serions ravis de vous accueillir !\n\nVous pouvez effectuer votre demande de réservation directement sur notre site internet : https://www.lesmediterranees.com/\n\nVous y trouverez nos disponibilités, nos tarifs ainsi que nos différentes catégories d'hébergements. Si vous avez une demande particulière, il vous suffit de l'indiquer dans l'espace commentaire lors de votre réservation, nous ferons le maximum pour y répondre.\n\nNous avons hâte de vous accueillir !\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for the interest you have shown in our campsite, we would be delighted to welcome you!\n\nYou can make your booking request directly on our website: https://www.lesmediterranees.com/\n\nYou will find our availability, our rates and our different accommodation categories there. If you have any special requests, simply note them in the comments section when you book, and we will do our best to accommodate them.\n\nWe look forward to welcoming you!\n\nKind regards,"
+  },
+  {
+    "id": "02",
+    "cat": "sejour",
+    "title": "Informations sur la ville de Marseillan",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre message.\n\nPour vous renseigner au mieux sur Marseillan et ses environs, l'office de tourisme saura vous conseiller avec plaisir :\n\nAdresse : Avenue de la Méditerranée, 34340 Marseillan\nTéléphone : (+33) 04 67 21 82 43\n\nNous restons à votre disposition pour toute question concernant votre séjour au camping.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your message.\n\nTo get the best information about Marseillan and the surrounding area, the Tourist Office will be happy to help:\n\nAddress: Avenue de la Méditerranée, 34340 Marseillan\nPhone: (+33) 4 67 21 82 43\n\nWe remain at your disposal for any questions about your stay at the campsite.\n\nKind regards,"
+  },
+  {
+    "id": "03",
+    "cat": "resa",
+    "title": "Demande de dimensions",
+    "fr": "Bonjour,\n\nNous vous remercions de l'intérêt que vous portez à notre camping et pour votre demande de réservation.\n\nAfin de vous attribuer l'emplacement le mieux adapté, pourriez-vous nous indiquer les dimensions de votre équipement : tente, caravane ou camping-car, auvent, véhicule, et tout autre équipement que vous comptez apporter ?\n\nDès réception de ces informations, nous reviendrons vers vous rapidement.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for the interest you have shown in our campsite and for your booking request.\n\nSo that we can assign you the pitch best suited to your needs, could you please tell us the size of your equipment: tent, caravan or motorhome, awning, vehicle, and any other equipment you plan to bring?\n\nAs soon as we receive this information, we will get back to you quickly.\n\nKind regards,"
+  },
+  {
+    "id": "04",
+    "cat": "empl",
+    "title": "Proche route",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nNous avons le plaisir de vous proposer un emplacement disponible sur vos dates. Par souci de transparence, nous tenons à vous préciser qu'il est situé à proximité de la route, ce qui peut occasionner quelques bruits de circulation ainsi que le passage des camions de collecte des ordures.\n\nAvant de valider votre réservation et votre paiement, nous souhaitons nous assurer que cet emplacement vous convient.\n\nSi c'est le cas, il vous suffit de nous répondre à ce mail pour nous le confirmer, et nous finaliserons votre réservation avec plaisir.\n\nNous restons à votre disposition pour toute information complémentaire.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nWe are pleased to offer you a pitch available for your dates. In the interest of transparency, we would like to let you know that it is located near the road, which may mean some traffic noise as well as the passing of the refuse collection trucks.\n\nBefore confirming your booking and payment, we would like to make sure this pitch suits you.\n\nIf it does, simply reply to this email to confirm, and we will be happy to finalise your booking.\n\nWe remain at your disposal for any further information.\n\nKind regards,"
+  },
+  {
+    "id": "05",
+    "cat": "empl",
+    "title": "Proche portillon plage",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nNous avons le plaisir de vous proposer un emplacement disponible sur vos dates. Par souci de transparence, nous tenons à vous préciser qu'il est situé à proximité du portillon de la plage, pratique pour profiter de la mer en quelques pas. Cela peut toutefois occasionner un peu de passage piéton à proximité.\n\nAvant de valider votre réservation et votre paiement, nous souhaitons nous assurer que cet emplacement vous convient.\n\nSi c'est le cas, il vous suffit de nous répondre à ce mail pour nous le confirmer, et nous finaliserons votre réservation avec plaisir.\n\nNous restons à votre disposition pour toute information complémentaire.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nWe are pleased to offer you a pitch available for your dates. In the interest of transparency, we would like to let you know that it is located near the beach gate, which is very convenient for reaching the sea in just a few steps. This may, however, mean a little foot traffic nearby.\n\nBefore confirming your booking and payment, we would like to make sure this pitch suits you.\n\nIf it does, simply reply to this email to confirm, and we will be happy to finalise your booking.\n\nWe remain at your disposal for any further information.\n\nKind regards,"
+  },
+  {
+    "id": "06",
+    "cat": "empl",
+    "title": "Proche animation",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nNous avons le plaisir de vous proposer un emplacement disponible sur vos dates. Il est situé à proximité de l'espace animation, au cœur de l'ambiance conviviale du camping. Les animations se terminent à minuit au plus tard, dans le respect d'un niveau sonore adapté.\n\nAvant de valider votre réservation et votre paiement, nous souhaitons nous assurer que cet emplacement vous convient.\n\nSi c'est le cas, il vous suffit de nous répondre à ce mail pour nous le confirmer, et nous finaliserons votre réservation avec plaisir.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nWe are pleased to offer you a pitch available for your dates. It is located near the entertainment area, in the heart of the campsite's friendly atmosphere. Entertainment finishes at midnight at the latest, with a suitable sound level.\n\nBefore confirming your booking and payment, we would like to make sure this pitch suits you.\n\nIf it does, simply reply to this email to confirm, and we will be happy to finalise your booking.\n\nKind regards,"
+  },
+  {
+    "id": "07",
+    "cat": "empl",
+    "title": "Proche mini-club",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nNous avons le plaisir de vous proposer un emplacement disponible sur vos dates. Il est situé à proximité de notre mini-club, ce qui peut occasionner un peu d'animation pendant ses heures d'ouverture : de 10 h à 12 h et de 15 h à 17 h, du dimanche au vendredi.\n\nAvant de valider votre réservation et votre paiement, nous souhaitons nous assurer que cet emplacement vous convient.\n\nSi c'est le cas, il vous suffit de nous répondre à ce mail pour nous le confirmer, et nous finaliserons votre réservation avec plaisir.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nWe are pleased to offer you a pitch available for your dates. It is located near our kids' club, which may mean some lively activity during its opening hours: 10 am to 12 pm and 3 pm to 5 pm, Sunday to Friday.\n\nBefore confirming your booking and payment, we would like to make sure this pitch suits you.\n\nIf it does, simply reply to this email to confirm, and we will be happy to finalise your booking.\n\nKind regards,"
+  },
+  {
+    "id": "08",
+    "cat": "empl",
+    "title": "Proche infrastructures",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nNous avons le plaisir de vous proposer un emplacement disponible sur vos dates. Il est situé à proximité des infrastructures du camping (sanitaires), très pratique au quotidien, mais pouvant occasionner un peu de passage ou de bruit à proximité.\n\nAvant de valider votre réservation et votre paiement, nous souhaitons nous assurer que cet emplacement vous convient.\n\nSi c'est le cas, il vous suffit de nous répondre à ce mail pour nous le confirmer, et nous finaliserons votre réservation avec plaisir.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nWe are pleased to offer you a pitch available for your dates. It is located near the campsite facilities (sanitary blocks), which is very practical day to day, but may mean a little foot traffic or noise nearby.\n\nBefore confirming your booking and payment, we would like to make sure this pitch suits you.\n\nIf it does, simply reply to this email to confirm, and we will be happy to finalise your booking.\n\nKind regards,"
+  },
+  {
+    "id": "09",
+    "cat": "empl",
+    "title": "Proche aire de jeux (emplacement)",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nNous avons le plaisir de vous proposer un emplacement disponible sur vos dates. Par souci de transparence, nous tenons à vous préciser qu'il est situé à proximité de l'aire de jeux, au cœur de l'ambiance familiale du camping. Cela peut occasionner un peu de bruit lié aux jeux des enfants en journée.\n\nAvant de valider votre réservation et votre paiement, nous souhaitons nous assurer que cet emplacement vous convient.\n\nSi c'est le cas, il vous suffit de nous répondre à ce mail pour nous le confirmer, et nous finaliserons votre réservation avec plaisir.\n\nNous restons à votre disposition pour toute information complémentaire.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nWe are pleased to offer you a pitch available for your dates. In the interest of transparency, we would like to let you know that it is located near the play area, in the heart of the campsite's family atmosphere. This may mean some noise from children playing during the day.\n\nBefore confirming your booking and payment, we would like to make sure this pitch suits you.\n\nIf it does, simply reply to this email to confirm, and we will be happy to finalise your booking.\n\nWe remain at your disposal for any further information.\n\nKind regards,"
+  },
+  {
+    "id": "10",
+    "cat": "empl",
+    "title": "Proche aire de jeux (mobil-home)",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nNous avons le plaisir de vous proposer un mobil-home disponible sur vos dates. Par souci de transparence, nous tenons à vous préciser qu'il est situé à proximité de l'aire de jeux, au cœur de l'ambiance familiale du camping. Cela peut occasionner un peu de bruit lié aux jeux des enfants en journée.\n\nAvant de valider votre réservation et votre paiement, nous souhaitons nous assurer que cet hébergement vous convient.\n\nSi c'est le cas, il vous suffit de nous répondre à ce mail pour nous le confirmer, et nous finaliserons votre réservation avec plaisir.\n\nNous restons à votre disposition pour toute information complémentaire.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nWe are pleased to offer you a mobile home available for your dates. In the interest of transparency, we would like to let you know that it is located near the play area, in the heart of the campsite's family atmosphere. This may mean some noise from children playing during the day.\n\nBefore confirming your booking and payment, we would like to make sure this accommodation suits you.\n\nIf it does, simply reply to this email to confirm, and we will be happy to finalise your booking.\n\nWe remain at your disposal for any further information.\n\nKind regards,"
+  },
+  {
+    "id": "11",
+    "cat": "sejour",
+    "title": "Chiens",
+    "fr": "Bonjour,\n\nNous vous remercions de l'intérêt que vous portez à notre camping, nous serions ravis d'accueillir votre compagnon à quatre pattes !\n\nLes chiens de 23 kg maximum sont les bienvenus dans notre camping, à l'exception des chiens de 1re et 2e catégorie, qui ne peuvent malheureusement pas être accueillis. Le tarif est de 9 € par nuit en mobil-home et de 7 € par nuit en emplacement.\n\nConcernant les plages de Marseillan, les règles diffèrent selon la saison :\n- Haute saison (du 1er juillet au 31 août) : les chiens sont autorisés sur quatre zones de plage balisées (Littoral, Pous, Robinson et Dunes), tenus en laisse.\n- Basse saison (du 16 septembre au 14 juin) : les chiens sont autorisés sur l'ensemble des plages de Marseillan.\n\nPour plus d'informations et connaître les règles locales à jour, nous vous invitons à vous rapprocher de l'office de tourisme de Marseillan, qui saura vous renseigner avec plaisir.\n\nNous restons à votre disposition pour toute information complémentaire.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for the interest you have shown in our campsite, we would be delighted to welcome your four-legged companion!\n\nDogs weighing up to 23 kg are welcome at our campsite, with the exception of category 1 and 2 dogs, which unfortunately cannot be accommodated. The rate is €9 per night for a mobile home and €7 per night for a pitch.\n\nAs for the beaches of Marseillan, the rules differ between seasons:\n- High season (1 July to 31 August): dogs are allowed on four marked beach areas (Littoral, Pous, Robinson and Dunes), on a leash.\n- Low season (16 September to 14 June): dogs are allowed on all of Marseillan's beaches.\n\nFor more information and the latest local rules, we invite you to contact the Marseillan Tourist Office, who will be happy to help.\n\nWe remain at your disposal for any further information.\n\nKind regards,"
+  },
+  {
+    "id": "12",
+    "cat": "resa",
+    "title": "Tarif ACSI",
+    "fr": "Bonjour,\n\nNous vous remercions de l'intérêt que vous portez à notre camping, nous serions ravis de vous accueillir !\n\nNotre tarif ACSI est disponible sur notre site internet, où vous pouvez effectuer votre réservation directement : https://www.lesmediterranees.com/\n\nTarif ACSI : 31 € par nuit pour 2 personnes et 1 chien, hors taxe de séjour.\n\nValable : du 3 avril au 2 juillet, puis du 25 août au 4 octobre, pour un séjour de 2 nuits minimum.\n\nPour en bénéficier, voici les trois étapes à suivre :\n\n1. Dans la case \"Code promo\", saisissez ACSI.\n2. Dans la case \"Souhaits particuliers\", saisissez à nouveau ACSI, ainsi que vos éventuels autres souhaits.\n3. Présentez votre carte ACSI lors du check-in, à votre arrivée.\n\nNous restons à votre disposition pour toute information complémentaire.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for the interest you have shown in our campsite, we would be delighted to welcome you!\n\nOur ACSI rate is available through our website, where you can make your booking directly: https://www.lesmediterranees.com/\n\nACSI rate: €31 per night for 2 people and 1 dog, excluding tourist tax.\n\nValid: from 3 April to 2 July, then from 25 August to 4 October, for a minimum stay of 2 nights.\n\nTo benefit from it, please follow these three steps:\n\n1. In the \"Promo code\" box, enter ACSI.\n2. In the \"Special requests\" box, enter ACSI again, along with any other requests you may have.\n3. Present your ACSI card at check-in on arrival.\n\nWe remain at your disposal for any further information.\n\nKind regards,"
+  },
+  {
+    "id": "13",
+    "cat": "sejour",
+    "title": "Visiteurs piscine",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre message.\n\nVos proches ont le plaisir de pouvoir profiter de notre piscine, à condition de rejoindre une personne séjournant dans notre établissement.\n\nTarif : 12 € par personne, à partir de 3 ans (gratuit pour les enfants de 3 ans et moins).\n\nEn haute saison, les visiteurs sont acceptés dans les limites suivantes :\n- hébergement locatif : dans la limite de la capacité maximale du logement ;\n- emplacement : 6 personnes au maximum, visiteurs compris.\n\nNous serons ravis de vous accueillir, vous et vos proches !\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your message.\n\nYour friends and family are welcome to enjoy our swimming pool, provided they are joining someone staying at our establishment.\n\nRate: €12 per person over 3 years old (free for children aged 3 and under).\n\nIn high season, visitors are accepted within the following limits:\n- rental accommodation: up to the maximum capacity of the accommodation;\n- pitch: 6 people maximum, visitors included.\n\nWe look forward to welcoming you and your loved ones!\n\nKind regards,"
+  },
+  {
+    "id": "14A",
+    "cat": "sejour",
+    "title": "Arrivée tardive (pièce d’identité présentée)",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre réservation, nous avons hâte de vous accueillir !\n\nNotre réception est ouverte de 8 h à 20 h : si vous arrivez pendant ces horaires, votre arrivée se fait sans aucune difficulté.\n\nSi vous arrivez après 20 h, pas d'inquiétude : notre agent de sécurité prendra le relais. Il vous suffira de lui présenter une pièce d'identité. Vous repasserez ensuite à la réception le lendemain matin pour finaliser votre arrivée.\n\nSi vous arrivez après 23 h, votre véhicule ne pourra malheureusement pas entrer dans le camping. L'agent de sécurité vous indiquera un parking sécurisé situé juste à côté de la réception, où vous pourrez stationner en toute tranquillité.\n\nNous restons à votre disposition pour toute information complémentaire. Bonne route et à très bientôt !\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking, we look forward to welcoming you!\n\nOur reception is open from 8 am to 8 pm: if you arrive during these hours, check-in is quick and easy.\n\nIf you arrive after 8 pm, there is no need to worry: our security agent will take over. You simply need to show an ID document. You will then stop by reception the next morning to complete your check-in.\n\nIf you arrive after 11 pm, your vehicle will unfortunately not be able to enter the campsite. The security agent will direct you to a secure car park right next to reception, where you can park with peace of mind.\n\nWe remain at your disposal for any further information. Safe travels and see you soon!\n\nKind regards,"
+  },
+  {
+    "id": "14B",
+    "cat": "sejour",
+    "title": "Arrivée tardive (pièce d’identité confiée)",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre réservation, nous avons hâte de vous accueillir !\n\nNotre réception est ouverte de 8 h à 20 h : si vous arrivez pendant ces horaires, votre arrivée se fait sans aucune difficulté.\n\nSi vous arrivez après 20 h, pas d'inquiétude : notre agent de sécurité prendra le relais. Il vous suffira de lui confier une pièce d'identité, que vous récupérerez à la réception le lendemain matin, au moment de finaliser votre arrivée.\n\nSi vous arrivez après 23 h, votre véhicule ne pourra malheureusement pas entrer dans le camping. L'agent de sécurité vous indiquera un parking sécurisé situé juste à côté de la réception, où vous pourrez stationner en toute tranquillité.\n\nNous restons à votre disposition pour toute information complémentaire. Bonne route et à très bientôt !\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking, we look forward to welcoming you!\n\nOur reception is open from 8 am to 8 pm: if you arrive during these hours, check-in is quick and easy.\n\nIf you arrive after 8 pm, there is no need to worry: our security agent will take over. You simply need to leave an ID document with them, which you will collect at reception the next morning when completing your check-in.\n\nIf you arrive after 11 pm, your vehicle will unfortunately not be able to enter the campsite. The security agent will direct you to a secure car park right next to reception, where you can park with peace of mind.\n\nWe remain at your disposal for any further information. Safe travels and see you soon!\n\nKind regards,"
+  }
+]

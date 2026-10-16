@@ -159,6 +159,20 @@ button:focus-visible, input:focus-visible {
 :root[data-theme="dark"] .copy[data-state="done"] { color: #06190F; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .copy[data-state="done"] { color: #06190F; } }
 
+.subject {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+}
+.subject-label {
+  flex: none; font-family: var(--font-mono); font-size: 11.5px;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted);
+}
+.subject-text { flex: 1 1 160px; min-width: 0; font-weight: 600; font-size: 14px; overflow-wrap: anywhere; }
+.copy-ghost { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.copy-ghost[data-state="done"] { box-shadow: none; }
+
 .mail {
   margin: 0; padding: 14px;
   white-space: pre-wrap; overflow-wrap: anywhere;
@@ -180,7 +194,7 @@ button:focus-visible, input:focus-visible {
 <div class="wrap">
   <header class="top">
     <h1>Mails types</h1>
-    <p>Camping Les Méditerranées, Marseillan. Choisissez la langue, trouvez le mail, cliquez sur Copier, puis collez-le dans votre réponse.</p>
+    <p>Camping Les Méditerranées, Marseillan. Choisissez la langue, trouvez le mail, copiez l’objet puis le texte et collez-les dans votre réponse.</p>
   </header>
 
   <div class="bar" role="region" aria-label="Filtres">
@@ -272,6 +286,20 @@ function toHtml(s, forMail) {
   return h;
 }
 
+function copyPlain(text, btn, node) {
+  var fallback = function () {
+    selectNode(node);
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) {}
+    flash(btn, ok ? 'Copié' : 'Ctrl+C', ok);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(function () { flash(btn, 'Copié', true); }, fallback);
+  } else {
+    fallback();
+  }
+}
+
 function copyMail(text, btn, node) {
   var plain = toPlain(text);
   var html = '<div>' + toHtml(text, true) + '</div>';
@@ -299,7 +327,7 @@ function render() {
   var list = MAILS.filter(function (m) {
     if (state.cat !== 'all' && m.cat !== state.cat) return false;
     if (!q) return true;
-    return norm(m.title + ' ' + toPlain(m[state.lang])).indexOf(q) !== -1;
+    return norm(m.title + ' ' + ((m.subject && m.subject[state.lang]) || '') + ' ' + toPlain(m[state.lang])).indexOf(q) !== -1;
   });
   grid.textContent = '';
   list.forEach(function (m) {
@@ -330,15 +358,37 @@ function render() {
     var copy = document.createElement('button');
     copy.type = 'button';
     copy.className = 'copy';
-    copy.dataset.label = 'Copier';
-    copy.textContent = 'Copier';
-    copy.setAttribute('aria-label', 'Copier le mail ' + m.id + ' (' + (state.lang === 'fr' ? 'français' : 'anglais') + ')');
+    copy.dataset.label = 'Copier le texte';
+    copy.textContent = 'Copier le texte';
+    copy.setAttribute('aria-label', 'Copier le texte du mail ' + m.id + ' (' + (state.lang === 'fr' ? 'français' : 'anglais') + ')');
     copy.addEventListener('click', function () { copyMail(m[state.lang], copy, body); });
 
     head.appendChild(num);
     head.appendChild(titles);
     head.appendChild(copy);
     card.appendChild(head);
+    var subj = m.subject && m.subject[state.lang];
+    if (subj) {
+      var srow = document.createElement('div');
+      srow.className = 'subject';
+      var slab = document.createElement('span');
+      slab.className = 'subject-label';
+      slab.textContent = 'Objet';
+      var stxt = document.createElement('span');
+      stxt.className = 'subject-text';
+      stxt.textContent = subj;
+      var sbtn = document.createElement('button');
+      sbtn.type = 'button';
+      sbtn.className = 'copy copy-ghost';
+      sbtn.dataset.label = 'Copier l’objet';
+      sbtn.textContent = sbtn.dataset.label;
+      sbtn.setAttribute('aria-label', 'Copier l’objet du mail ' + m.id);
+      sbtn.addEventListener('click', function () { copyPlain(subj, sbtn, stxt); });
+      srow.appendChild(slab);
+      srow.appendChild(stxt);
+      srow.appendChild(sbtn);
+      card.appendChild(srow);
+    }
     card.appendChild(body);
     grid.appendChild(card);
   });

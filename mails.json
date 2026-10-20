@@ -163,5 +163,16 @@
       "fr": "Votre arrivée tardive au camping",
       "en": "Your late arrival at the campsite"
     }
+  },
+  {
+    "id": "15",
+    "cat": "resa",
+    "title": "Emplacement reclassé (sanitaires et kitchenette privatifs)",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nNous tenons à vous informer que les emplacements demandés ont été reclassés et correspondent désormais à une nouvelle catégorie : « emplacements avec sanitaires et kitchenette privatifs ».\n\nDe ce fait, il ne s’agit plus de la catégorie initialement demandée, et le tarif est également différent.\n\nPourriez-vous nous indiquer si vous souhaitez réserver cette nouvelle catégorie au tarif correspondant, ou si vous préférez un autre emplacement standard au tarif initial ? Dans ce dernier cas, nous vous invitons à nous communiquer vos préférences d’emplacement en réponse à cet e-mail.\n\nDans l’attente de votre retour, nous restons à votre disposition pour toute autre demande.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nWe would like to inform you that the pitches you requested have been reclassified and now belong to a new category: \"pitches with private sanitary facilities and kitchenette\".\n\nAs a result, this is no longer the category you originally requested, and the rate is also different.\n\nCould you please let us know whether you would like to book this new category at the corresponding rate, or whether you would prefer another standard pitch at the original rate? In the latter case, please reply to this email with your pitch preferences.\n\nWe look forward to hearing from you and remain at your disposal for any other request.\n\nKind regards,",
+    "subject": {
+      "fr": "Votre demande de réservation – nouvelle catégorie d’emplacement",
+      "en": "Your booking request – new pitch category"
+    }
   }
 ]

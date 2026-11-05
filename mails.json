@@ -174,5 +174,27 @@
       "fr": "Votre demande de réservation – nouvelle catégorie d’emplacement",
       "en": "Your booking request – new pitch category"
     }
+  },
+  {
+    "id": "16",
+    "cat": "resa",
+    "title": "Numéro d’emplacement – souhaits pris en compte",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nConcernant le numéro d’emplacement, nous ne communiquons pas les numéros à l’avance. Nous prenons toutefois bien en compte les souhaits que vous avez indiqués dans la rubrique « Vos souhaits particuliers » et nous y répondrons dans la mesure du possible, sans pouvoir toutefois vous le garantir.\n\nSi vous n’avez pas encore précisé de souhait, n’hésitez pas à nous répondre par e-mail en nous indiquant vos préférences : nous les ajouterons avec plaisir à votre dossier, dans les mêmes conditions.\n\nDans l’attente de votre retour, nous restons à votre disposition.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nRegarding the pitch number, we do not communicate pitch numbers in advance. However, we do take into account the requests you entered in the \"Specific request\" section, and we will do our best to meet them where possible, although we cannot guarantee it.\n\nIf you have not yet mentioned any request, please feel free to reply to this email with your preferences, and we will gladly add them to your booking on the same basis.\n\nWe look forward to hearing from you and remain at your disposal.\n\nKind regards,",
+    "subject": {
+      "fr": "Votre demande de réservation – numéro d’emplacement",
+      "en": "Your booking request – pitch number"
+    }
+  },
+  {
+    "id": "17",
+    "cat": "resa",
+    "title": "Numéro d’emplacement – un des numéros demandés attribué",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre demande de réservation.\n\nNous ne sommes pas en mesure de communiquer les numéros d’emplacement à l’avance. Nous pouvons néanmoins vous confirmer qu’un des numéros que vous nous avez demandés vous a bien été attribué.\n\nNous restons à votre disposition pour toute autre demande.\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking request.\n\nWe are unable to communicate pitch numbers in advance. However, we are pleased to confirm that one of the numbers you requested has been assigned to you.\n\nWe remain at your disposal for any other request.\n\nKind regards,",
+    "subject": {
+      "fr": "Votre demande de réservation – numéro d’emplacement",
+      "en": "Your booking request – pitch number"
+    }
   }
 ]

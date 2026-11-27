@@ -143,22 +143,11 @@
     }
   },
   {
-    "id": "14A",
+    "id": "14",
     "cat": "sejour",
-    "title": "Arrivée tardive (pièce d’identité présentée)",
-    "fr": "Bonjour,\n\nNous vous remercions pour votre réservation et sommes ravis de vous accueillir prochainement !\n\nVoici quelques informations pratiques concernant votre arrivée :\n\nNotre réception est ouverte de 8 h à 20 h. Notre équipe sera heureuse de vous accueillir durant ces horaires.\n\nPour les arrivées après 20 h, notre agent de sécurité prendra le relais. Il vous suffira de lui présenter une pièce d’identité. Vous pourrez ensuite passer à la réception le lendemain matin pour finaliser votre arrivée.\n\nPour les arrivées après 23 h, l’accès des véhicules au camping sera fermé. Un parking sécurisé, situé juste à côté de la réception, sera à votre disposition. Notre agent de sécurité vous indiquera où stationner.\n\nNous vous souhaitons une excellente route et avons hâte de vous accueillir !\n\nBien cordialement,",
-    "en": "Hello,\n\nThank you for your booking, we are delighted to welcome you soon!\n\nHere is some practical information about your arrival:\n\nOur reception is open from 8 am to 8 pm. Our team will be happy to welcome you during these hours.\n\nFor arrivals after 8 pm, our security agent will take over. You simply need to show an ID document. You can then stop by reception the next morning to complete your check-in.\n\nFor arrivals after 11 pm, vehicle access to the campsite will be closed. A secure car park, located right next to reception, will be at your disposal. Our security agent will show you where to park.\n\nWe wish you a safe journey and look forward to welcoming you!\n\nKind regards,",
-    "subject": {
-      "fr": "Votre arrivée tardive au camping",
-      "en": "Your late arrival at the campsite"
-    }
-  },
-  {
-    "id": "14B",
-    "cat": "sejour",
-    "title": "Arrivée tardive (pièce d’identité confiée)",
-    "fr": "Bonjour,\n\nNous vous remercions pour votre réservation, nous avons hâte de vous accueillir !\n\nNotre réception est ouverte de 8 h à 20 h : si vous arrivez pendant ces horaires, votre arrivée se fait sans aucune difficulté.\n\nSi vous arrivez après 20 h, pas d'inquiétude : notre agent de sécurité prendra le relais. Il vous suffira de lui confier une pièce d'identité, que vous récupérerez à la réception le lendemain matin, au moment de finaliser votre arrivée.\n\nSi vous arrivez après 23 h, votre véhicule ne pourra malheureusement pas entrer dans le camping. L'agent de sécurité vous indiquera un parking sécurisé situé juste à côté de la réception, où vous pourrez stationner en toute tranquillité.\n\nNous restons à votre disposition pour toute information complémentaire. Bonne route et à très bientôt !\n\nBien cordialement,",
-    "en": "Hello,\n\nThank you for your booking, we look forward to welcoming you!\n\nOur reception is open from 8 am to 8 pm: if you arrive during these hours, check-in is quick and easy.\n\nIf you arrive after 8 pm, there is no need to worry: our security agent will take over. You simply need to leave an ID document with them, which you will collect at reception the next morning when completing your check-in.\n\nIf you arrive after 11 pm, your vehicle will unfortunately not be able to enter the campsite. The security agent will direct you to a secure car park right next to reception, where you can park with peace of mind.\n\nWe remain at your disposal for any further information. Safe travels and see you soon!\n\nKind regards,",
+    "title": "Arrivée tardive",
+    "fr": "Bonjour,\n\nNous vous remercions pour votre réservation et sommes ravis de vous accueillir prochainement !\n\nVoici quelques informations pratiques concernant votre arrivée :\n\nNotre réception est ouverte de 8 h à 20 h. Notre équipe sera heureuse de vous accueillir durant ces horaires.\n\nPour les arrivées après 20 h, notre agent de sécurité prendra le relais. Il vous suffira de vous présenter à lui avec une pièce d’identité. Vous pourrez ensuite passer à la réception le lendemain matin pour finaliser votre arrivée.\n\nPour les arrivées après 23 h, l’accès des véhicules au camping sera fermé. Un parking sécurisé, situé juste à côté de la réception, sera à votre disposition. Notre agent de sécurité vous indiquera où stationner.\n\nNous vous souhaitons une excellente route et avons hâte de vous accueillir !\n\nBien cordialement,",
+    "en": "Hello,\n\nThank you for your booking, we are delighted to welcome you soon!\n\nHere is some practical information about your arrival:\n\nOur reception is open from 8 am to 8 pm. Our team will be happy to welcome you during these hours.\n\nFor arrivals after 8 pm, our security agent will take over. You simply need to report to them with an ID document. You can then stop by reception the next morning to complete your check-in.\n\nFor arrivals after 11 pm, vehicle access to the campsite will be closed. A secure car park, located right next to reception, will be at your disposal. Our security agent will show you where to park.\n\nWe wish you a safe journey and look forward to welcoming you!\n\nKind regards,",
     "subject": {
       "fr": "Votre arrivée tardive au camping",
       "en": "Your late arrival at the campsite"
